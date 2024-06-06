@@ -1,9 +1,10 @@
 import { GlobalStyles } from "./GlobalStyles/GlobalStyles";
+import SliderContainer from "./components/sliderContainer/SliderContainer";
 
 const App = () => {
 	return <>
 	<GlobalStyles></GlobalStyles>
-	<h1>Núcleo de la aplicación</h1>;
+	<SliderContainer></SliderContainer>
 	
 	
 	</> 
